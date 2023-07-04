@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.main {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 5% auto;
+  padding: 2rem;
+  position: relative;
+  background-color: white;
+  max-width: 750px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  min-width: fit-content;
+  width: 20%;
+  max-width: 10rem;
+}
+.input {
+  padding: .5rem .5rem;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  outline: none;
+  border: 2px solid black; 
+  max-width: 35rem;
+  width: 80%;
+}
+.input:hover,
+.input:focus {
+  border-color: #353535;
+}
+
+.btn {
+  text-transform: capitalize;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline: none;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: .9rem;
+}
+.btn:hover,
+.btn:focus {
+  color: white;
+  background-color: black;
+}
+
+.display-step {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+}
+.button-container {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: .5rem;
+  justify-content: flex-end;
+}
